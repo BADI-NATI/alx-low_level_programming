@@ -1,4 +1,6 @@
 #include <stdlib.h>
+#include <ctype.h>
+#include <unistd.h>
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
@@ -12,7 +14,7 @@ int main(void)
 	int n;
 
 	for (n = 65; n < 91; n++)
-		putchar(n);
+		putchar(tolower(n));
 	printf("\n");
 	return (0);
 }
