@@ -16,7 +16,9 @@ int main(void)
 
 	for (i = 65; i < 91; i++)
 		putchar(tolower(i));
-	for (n = 65; n < 91; i++)
+	for (n = 65; n < 91; n++)
 		putchar(n);
+
+	putchar('\n');
 	return (0);
 }
