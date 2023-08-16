@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_alphabet - is going to print the whole alphabet ten times.
- * Return: returns nothing.
+ * print_alphabet_x10 - is going to print the whole alphabet x10.
+ * Return: returns 0.
  *
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int i;
 	int j;
